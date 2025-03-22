@@ -1,0 +1,19 @@
+readed text:
+     Given a text represented as an array of strings.
+Each string contains at most N characters.
+The text consists of 
+sentences that may wrap to the next line.
+
+Sentences end with a period. Strings may contain 5 spaces at the beginning.
+The goal is to determine the number of sentences in the text.Ì
+
+number of sentences: 6
+number of rows: 7
+number of symbols in each row:
+1.53
+2.42
+3.21
+4.41
+5.0
+6.75
+7.61
