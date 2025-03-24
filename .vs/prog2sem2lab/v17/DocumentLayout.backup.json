@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\tethranialn.DESKTOP-QE28BKQ\\source\\repos\\prog2sem2lab\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tethranialn.DESKTOP-QE28BKQ\\source\\repos\\prog2sem2lab\\result.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:result.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{298AFA39-B159-4580-B079-F81DFA6EDB8F}|prog2sem2lab.vcxproj|C:\\Users\\tethranialn.DESKTOP-QE28BKQ\\source\\repos\\prog2sem2lab\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{298AFA39-B159-4580-B079-F81DFA6EDB8F}|prog2sem2lab.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tethranialn.DESKTOP-QE28BKQ\\source\\repos\\prog2sem2lab\\result.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:result.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\tethranialn.DESKTOP-QE28BKQ\\source\\repos\\prog2sem2lab\\text.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
@@ -22,11 +22,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\Users\\tethranialn.DESKTOP-QE28BKQ\\source\\repos\\prog2sem2lab\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
@@ -57,7 +57,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "result.txt",
               "DocumentMoniker": "C:\\Users\\tethranialn.DESKTOP-QE28BKQ\\source\\repos\\prog2sem2lab\\result.txt",
               "RelativeDocumentMoniker": "result.txt",
