@@ -6,33 +6,14 @@
 ќдна из строк может содержать 5 пробелов в начале.
 Ќеобходимо определить количество предложений в тексте.
 */
-#include <iostream>;
-#include <fstream>;
+#include "const.h";
+#include "strl.h";
+#include "file.h";
 using namespace std;
-const int N = 100;
-struct strL
-{
-	char str[N][N];
-	unsigned L[N];
-	unsigned res = 0;
-	unsigned S = 0;
-};
+strL work; ifstream input; ofstream output;
 void main()
 {
-	strL work;
-	ifstream input; ofstream output;
-	input.open("text.txt");
-	if (!input.is_open())
-	{
-		cout << "input file is not open";
-		return;
-	}
-	output.open("result.txt");
-	if (!output.is_open())
-	{
-		cout << "output file is not open";
-		return;
-	}
+	open(input, output);
 	output << "readed text:\n";
 	while (!input.eof() && work.S < N)
 	{
@@ -53,8 +34,7 @@ void main()
 	{
 		output << endl << i+1 << '.' << work.L[i];
 	}
-	input.close();
-	output.close();
+	close(input, output);
 	return;
 }
 /*
