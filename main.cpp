@@ -9,8 +9,7 @@
 #include "const.h";
 #include "strl.h";
 #include "file.h";
-using namespace std;
-strL work; ifstream input; ofstream output;
+ifstream input; ofstream output;
 void main()
 {
 	open(input, output);

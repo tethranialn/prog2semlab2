@@ -7,4 +7,5 @@ struct strL
 	unsigned res = 0;
 	unsigned S = 0;
 };
+strL work;
 
