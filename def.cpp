@@ -29,11 +29,15 @@ void OutStr(ofstream& output, stroka str1)
 void out(ofstream& output, text txt1)
 {
 	unsigned i;
-	output << "Input:" << endl;
+	output << "readed text:" << endl;
 	for (i = 0; i < txt1.Len; i++) OutStr(output, txt1.txt[i]);
-	output << endl << "\nnumber of sentences: " << txt1.res;
+	output << "\nnumber of sentences: " << txt1.res;
 }
-void process()
+void ProcessStr(stroka& str1)
 {
-
+	return;
+}
+void process(text& txt1)
+{
+	return;
 }

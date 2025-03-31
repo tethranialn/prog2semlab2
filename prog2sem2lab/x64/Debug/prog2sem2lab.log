@@ -1,16 +1,16 @@
-﻿  main.cpp
-C:\Users\tethranialn.DESKTOP-QE28BKQ\source\repos\prog2semlab2\main.cpp(12,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+﻿  def.cpp
+C:\Users\tethranialn.DESKTOP-QE28BKQ\source\repos\prog2semlab2\def.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
 C:\Users\tethranialn.DESKTOP-QE28BKQ\source\repos\prog2semlab2\functions.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-  (компиляция исходного файла "main.cpp")
+  (компиляция исходного файла "def.cpp")
   
 C:\Users\tethranialn.DESKTOP-QE28BKQ\source\repos\prog2semlab2\strl.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-  (компиляция исходного файла "main.cpp")
+  (компиляция исходного файла "def.cpp")
   
 C:\Users\tethranialn.DESKTOP-QE28BKQ\source\repos\prog2semlab2\functions.h(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-  (компиляция исходного файла "main.cpp")
+  (компиляция исходного файла "def.cpp")
   
 C:\Users\tethranialn.DESKTOP-QE28BKQ\source\repos\prog2semlab2\file.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-  (компиляция исходного файла "main.cpp")
+  (компиляция исходного файла "def.cpp")
   
-C:\Users\tethranialn.DESKTOP-QE28BKQ\source\repos\prog2semlab2\main.cpp(15,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+C:\Users\tethranialn.DESKTOP-QE28BKQ\source\repos\prog2semlab2\def.cpp(26,16): warning C4018: <: несоответствие типов со знаком и без знака
   prog2sem2lab.vcxproj -> C:\Users\tethranialn.DESKTOP-QE28BKQ\source\repos\prog2semlab2\x64\Debug\prog2sem2lab.exe

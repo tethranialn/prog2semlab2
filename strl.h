@@ -1,10 +1,5 @@
 #pragma once
 #include "const.h";
-struct strL
-{
-	char str[N][N];
-	unsigned L[N];
-};
 struct stroka //S
 {
 	char str[MaxLen];
@@ -17,4 +12,3 @@ struct text //T
 	unsigned res = 0;
 	unsigned S = 0;
 };
-
