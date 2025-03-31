@@ -7,6 +7,7 @@ void inputStr(ifstream& input, stroka& str1)
 		input >> sim; if (sim == '\n') break;
 		str1.str[j] = sim; j++;
 	}
+	if (input.eof()) j--;
 	str1.dl = j;
 	if ((sim != '\n') && (!input.eof()))
 		while (!input.eof()) { input >> sim; if (sim == '\n') break; }
@@ -29,15 +30,27 @@ void OutStr(ofstream& output, stroka str1)
 void out(ofstream& output, text txt1)
 {
 	unsigned i;
-	output << "readed text:" << endl;
+	output << "\nreaded text block:" << endl;
 	for (i = 0; i < txt1.Len; i++) OutStr(output, txt1.txt[i]);
+}
+void result(ofstream& output, text txt1)
+{
 	output << "\nnumber of sentences: " << txt1.res;
 }
-void ProcessStr(stroka& str1)
+void ProcessStr(stroka& str1, text& txt1)
 {
-	return;
+	char j, tmp;
+	for (j = 0; j < str1.dl; j++)
+	{
+		tmp = str1.str[j];
+		if (tmp == '.') txt1.res++;
+	}
 }
 void process(text& txt1)
 {
-	return;
+	unsigned i;
+	for (i = 0; i < txt1.Len; i++)
+	{
+		ProcessStr(txt1.txt[i], txt1);
+	}
 }

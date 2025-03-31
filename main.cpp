@@ -1,5 +1,5 @@
 /*
-				  Версия программы: 0.8
+				  Версия программы: 0.9
 
  Задание:
 	Задан текст, представленный массивом строк.
@@ -19,9 +19,13 @@ void main()
 {
 	open(input, output);
 	input.unsetf(ios::skipws);
-	read(input, &txt1);
-	process(txt1);
-	out(output, txt1);
+	//while (!input.eof())
+	//{
+		read(input, &txt1);
+		process(txt1);
+		out(output, txt1);
+	//}
+	result(output, txt1);
 	close(input, output);
 	return;
 }
