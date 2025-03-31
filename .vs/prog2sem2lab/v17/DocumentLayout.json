@@ -56,7 +56,7 @@
               "RelativeDocumentMoniker": "main.cpp",
               "ToolTip": "C:\\Users\\tethranialn.DESKTOP-QE28BKQ\\source\\repos\\prog2semlab2\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-03-17T14:29:40.583Z",
               "IsPinned": true,
@@ -80,8 +80,7 @@
               "RelativeToolTip": "functions.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-31T10:18:36.664Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T10:18:36.664Z"
             },
             {
               "$type": "Document",
@@ -93,8 +92,7 @@
               "RelativeToolTip": "def.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-31T10:18:47.174Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T10:18:47.174Z"
             },
             {
               "$type": "Document",
@@ -106,8 +104,7 @@
               "RelativeToolTip": "strl.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-22T15:17:31.267Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T15:17:31.267Z"
             },
             {
               "$type": "Document",
@@ -119,8 +116,7 @@
               "RelativeToolTip": "file.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-22T15:26:23.826Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T15:26:23.826Z"
             },
             {
               "$type": "Document",
@@ -132,8 +128,7 @@
               "RelativeToolTip": "file.cpp",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-03-22T15:26:09.17Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T15:26:09.17Z"
             },
             {
               "$type": "Document",
@@ -145,8 +140,7 @@
               "RelativeToolTip": "const.h",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-03-22T15:24:42.166Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-22T15:24:42.166Z"
             },
             {
               "$type": "Document",
@@ -158,8 +152,7 @@
               "RelativeToolTip": "text.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-17T14:34:40.038Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-17T14:34:40.038Z"
             },
             {
               "$type": "Document",
@@ -171,8 +164,7 @@
               "RelativeToolTip": "result.txt",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
-              "WhenOpened": "2025-03-31T11:06:52.507Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-31T11:06:52.507Z"
             }
           ]
         }
