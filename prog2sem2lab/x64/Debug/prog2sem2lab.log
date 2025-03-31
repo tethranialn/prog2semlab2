@@ -1,20 +1,16 @@
-﻿  file.cpp
-C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\file.cpp(1,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\file.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-  (компиляция исходного файла "file.cpp")
-  
-C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\file.cpp(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-  main.cpp
-C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\main.cpp(9,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\main.cpp(10,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\strl.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+﻿  main.cpp
+C:\Users\tethranialn.DESKTOP-QE28BKQ\source\repos\prog2semlab2\main.cpp(12,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\tethranialn.DESKTOP-QE28BKQ\source\repos\prog2semlab2\functions.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
   (компиляция исходного файла "main.cpp")
   
-C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\main.cpp(11,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\file.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+C:\Users\tethranialn.DESKTOP-QE28BKQ\source\repos\prog2semlab2\strl.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
   (компиляция исходного файла "main.cpp")
   
-C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\main.cpp(13,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
-C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\main.cpp(32,20): warning C4018: <: несоответствие типов со знаком и без знака
-  Создание кода...
-  prog2sem2lab.vcxproj -> C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\x64\Debug\prog2sem2lab.exe
+C:\Users\tethranialn.DESKTOP-QE28BKQ\source\repos\prog2semlab2\functions.h(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\tethranialn.DESKTOP-QE28BKQ\source\repos\prog2semlab2\file.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
+  (компиляция исходного файла "main.cpp")
+  
+C:\Users\tethranialn.DESKTOP-QE28BKQ\source\repos\prog2semlab2\main.cpp(15,6): warning C4326: возвращаемый тип "main" должен быть "int", а не "void"
+  prog2sem2lab.vcxproj -> C:\Users\tethranialn.DESKTOP-QE28BKQ\source\repos\prog2semlab2\x64\Debug\prog2sem2lab.exe

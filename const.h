@@ -1,2 +1,2 @@
 #pragma once
-const int N = 100;
+const int MaxLen = 100, MaxStr = 50, N = 100;
