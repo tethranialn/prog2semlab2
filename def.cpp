@@ -1,56 +1,107 @@
-#include "functions.h";
-void inputStr(ifstream& input, stroka& str1)
+#include "functions.h"
+#include <iostream>
+
+
+
+void inputStr(std::ifstream& input, stroka& str1, bufer& B) 
 {
-	char j = 0, sim;
-	while (!input.eof() && (j < MaxLen))
-	{
-		input >> sim; if (sim == '\n') break;
-		str1.str[j] = sim; j++;
-	}
-	if (input.eof()) j--;
-	str1.dl = j;
-	if ((sim != '\n') && (!input.eof()))
-		while (!input.eof()) { input >> sim; if (sim == '\n') break; }
+    char sim;
+    unsigned char j = 0;
+    input.seekg(+B.massiv[B.index], ios::beg);
+    for (j = 0; j < BLOCK_SIZE; ++j)
+    {
+        input >> sim;
+        if (sim == '\n' || input.eof()) break;
+        str1.str[j] = sim;
+    }
+    str1.dl = j;
+    B.massiv[B.index] = input.tellg();
 }
-void read(ifstream& input, text* txt1)
+void bufInp(std::ifstream& input, bufer& B)
 {
-	char i = 0;
-	while (!input.eof() && (i < MaxStr))
-	{
-		inputStr(input, (*txt1).txt[i]); i++;
-	}
-	txt1->Len = i;
+    char sim = ' ', i = 0;
+    while (i < 6 && !input.eof())
+    {
+        B.massiv[B.index + i] = input.tellg();
+        std::cout << B.massiv[B.index + i] << endl;
+        while (sim != '\n' && !input.eof()) input.get(sim);
+        if (!input.eof()) 
+        {
+            input.get(sim);
+            if (input.eof()) break;
+        }
+        i++;
+    }
 }
-void OutStr(ofstream& output, stroka str1)
-{
-	char j;
-	for (j = 0; j < str1.dl; j++) output << str1.str[j];
-	output << endl;
+void read(std::ifstream& input, text* txt1, bufer& B) {
+    char sim = ' ';
+    txt1->Len = 0;
+    B.index = 0;
+    for (int i = 0; i < MaxStr; ++i)
+    {
+        inputStr(input, txt1->txt[i], B);
+        B.index++;
+        if (txt1->txt[i].dl == 0) 
+        { 
+            break;
+        }
+        txt1->Len++;
+    }
 }
-void out(ofstream& output, text txt1)
+
+void OutStr(std::ofstream& output, stroka str1)
 {
-	unsigned i;
-	output << "\nreaded text block:" << endl;
-	for (i = 0; i < txt1.Len; i++) OutStr(output, txt1.txt[i]);
+    for (unsigned char j = 0; j < str1.dl; ++j) 
+    {
+        output << str1.str[j];
+    }
+    output << std::endl;
 }
-void result(ofstream& output, text txt1)
+
+void out(std::ofstream& output, text txt1) 
 {
-	output << "\nnumber of sentences: " << txt1.res;
+    output << "\nreaded text block:" << std::endl;
+    for (unsigned int i = 0; i < txt1.Len; ++i)
+    {
+        OutStr(output, txt1.txt[i]);
+    }
 }
-void ProcessStr(stroka& str1, text& txt1)
+
+void ProcessStr(stroka& str1, text& txt1, char* sentence, int& sentence_len) 
 {
-	char j, tmp;
-	for (j = 0; j < str1.dl; j++)
-	{
-		tmp = str1.str[j];
-		if (tmp == '.') txt1.res++;
-	}
+    for (unsigned char j = 0; j < str1.dl; ++j) 
+    {
+        sentence[sentence_len++] = str1.str[j];
+        sentence[sentence_len] = '\0';
+
+        if (str1.str[j] == '.')
+        {
+            int start = 0;
+            while (sentence[start] == ' ') 
+            {
+                start++;
+            }
+            if (start < sentence_len) 
+            { 
+                txt1.res++;
+            }
+            sentence_len = 0;
+        }
+    }
 }
-void process(text& txt1)
+
+void process(text& txt1) 
 {
-	unsigned i;
-	for (i = 0; i < txt1.Len; i++)
-	{
-		ProcessStr(txt1.txt[i], txt1);
-	}
+    char sentence[100];
+    int sentence_len = 0;
+
+    for (unsigned int i = 0; i < txt1.Len; ++i) 
+    {
+        ProcessStr(txt1.txt[i], txt1, sentence, sentence_len);
+    }
+}
+
+void result(std::ofstream& output, text txt1)
+{
+    output << "\nnumber of sentences: " << txt1.res << std::endl;
 }

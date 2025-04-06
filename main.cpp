@@ -12,24 +12,25 @@
 	Автор: Чучалин Иван Валентинович	      Группа: 4354
 	Дата начала: 22.03.2025		Дата окончания: 31.03.2025
 */
-#include "functions.h";
-ifstream input; ofstream output;
-stroka str1; text txt1;
-void main()
+#include "functions.h"
+#include <iostream>
+
+int main() 
 {
-	open(input, output);
-	input.unsetf(ios::skipws);
-	//while (!input.eof())
-	//{
-		read(input, &txt1);
-		process(txt1);
-		out(output, txt1);
-	//}
-	result(output, txt1);
-	close(input, output);
-	return;
+    std::ifstream input;
+    std::ofstream output;
+    text txt1; bufer B;
+    input.unsetf(ios::skipws);
+    open(input, output);
+    bufInp(input, B);
+    while (true) 
+    {
+        read(input, &txt1, B);
+        if (txt1.Len == 0) break;
+        process(txt1);
+        out(output, txt1);
+    }
+    result(output, txt1);
+    close(input, output);
+    return 0;
 }
-/*
-	Блочное чтение: 5 строк по 20 символов, потом след 20 и тд.
-					То есть... повторение мейна
-*/

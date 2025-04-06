@@ -2,13 +2,18 @@
 #include "const.h";
 struct stroka //S
 {
-	char str[MaxLen];
-	unsigned dl;
+    char str[MaxLen];
+    unsigned char dl;
 };
 struct text //T
 {
-	stroka txt[MaxStr];
-	unsigned Len;
-	unsigned res = 0;
-	unsigned S = 0;
+    stroka txt[MaxStr];
+    unsigned int Len;
+    unsigned int res = 0;
+    int cur = 0;
+};
+struct bufer
+{
+    int massiv[6] = {0,0,0,0,0,0};
+    int index = 0;
 };
