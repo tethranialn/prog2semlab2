@@ -8,7 +8,7 @@ struct stroka //S
 struct text //T
 {
     stroka txt[MaxStr];
-    unsigned int Len;
+    unsigned int Len = 0;
     unsigned int res = 0;
     int cur = 0;
 };
@@ -16,4 +16,5 @@ struct bufer
 {
     int massiv[6] = {0,0,0,0,0,0};
     int index = 0;
+    int i = 0;
 };

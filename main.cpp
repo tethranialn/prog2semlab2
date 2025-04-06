@@ -22,13 +22,17 @@ int main()
     text txt1; bufer B;
     input.unsetf(ios::skipws);
     open(input, output);
-    bufInp(input, B);
-    while (true) 
+    while (!input.eof())
     {
-        read(input, &txt1, B);
-        if (txt1.Len == 0) break;
-        process(txt1);
-        out(output, txt1);
+        B.i = txt1.Len;
+        bufInp(input, B);
+        while (true)
+        {
+            read(input, &txt1, B);
+            if (txt1.Len == 0) break;
+            process(txt1);
+            out(output, txt1);
+        }
     }
     result(output, txt1);
     close(input, output);

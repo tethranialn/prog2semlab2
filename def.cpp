@@ -7,7 +7,12 @@ void inputStr(std::ifstream& input, stroka& str1, bufer& B)
 {
     char sim;
     unsigned char j = 0;
-    input.seekg(+B.massiv[B.index], ios::beg);
+    if(B.index == 0) input.seekg(+B.massiv[B.index], ios::beg);
+    else
+    {
+        B.massiv[B.index] = B.massiv[B.index] - 1;
+        input.seekg(+B.massiv[B.index], ios::beg);
+    }
     for (j = 0; j < BLOCK_SIZE; ++j)
     {
         input >> sim;
@@ -20,10 +25,17 @@ void inputStr(std::ifstream& input, stroka& str1, bufer& B)
 void bufInp(std::ifstream& input, bufer& B)
 {
     char sim = ' ', i = 0;
+    if (B.i != 0)
+    {
+        for (int j = 0; j < B.i; ++j)
+        {
+            while (sim != '\n' && !input.eof()) input.get(sim);
+            if (input.eof()) break;
+        }
+    }
     while (i < 6 && !input.eof())
     {
         B.massiv[B.index + i] = input.tellg();
-        std::cout << B.massiv[B.index + i] << endl;
         while (sim != '\n' && !input.eof()) input.get(sim);
         if (!input.eof()) 
         {
