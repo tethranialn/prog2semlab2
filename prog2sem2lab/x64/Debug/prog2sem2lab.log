@@ -11,20 +11,4 @@ C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\functions.h(3,10): warning
 C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\file.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
   (компиляция исходного файла "def.cpp")
   
-C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\def.cpp(23,36): warning C4244: =: преобразование "std::streamoff" в "int", возможна потеря данных
-C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\def.cpp(38,44): warning C4244: =: преобразование "std::streamoff" в "int", возможна потеря данных
-  main.cpp
-C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\functions.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-  (компиляция исходного файла "main.cpp")
-  
-C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\strl.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-  (компиляция исходного файла "main.cpp")
-  
-C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\functions.h(3,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-  (компиляция исходного файла "main.cpp")
-  
-C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\file.h(2,10): warning C4067: непредвиденные лексемы за директивой препроцессора, требуется newline
-  (компиляция исходного файла "main.cpp")
-  
-  Создание кода...
   prog2sem2lab.vcxproj -> C:\Users\chivo\OneDrive\Documents\GitHub\prog2semlab2\x64\Debug\prog2sem2lab.exe

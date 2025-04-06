@@ -1,5 +1,5 @@
 /*
-				  Версия программы: 0.9
+				  Версия программы: 1.0
 
  Задание:
 	Задан текст, представленный массивом строк.
@@ -10,12 +10,13 @@
 	Необходимо определить количество предложений в тексте.
 
 	Автор: Чучалин Иван Валентинович	      Группа: 4354
-	Дата начала: 22.03.2025		Дата окончания: 31.03.2025
+	Дата начала: 22.03.2025		Дата окончания: 06.04.2025
 */
 #include "functions.h"
 #include <iostream>
 
-int main() 
+/*
+int main()
 {
     std::ifstream input;
     std::ofstream output;
@@ -33,6 +34,31 @@ int main()
             process(txt1);
             out(output, txt1);
         }
+    }
+    result(output, txt1);
+    close(input, output);
+    return 0;
+}
+*/
+int main() {
+    std::ifstream input;
+    std::ofstream output;
+    text txt1; bufer B;
+    open(input, output);
+    unsigned int x, y{};
+    for (;;)
+    {
+        x = 0;
+        if (!read(input, &txt1, x, y) && input.eof())
+            break;
+        for (;;)
+        {
+            process(txt1);
+            out(output, txt1);
+            if (!read(input, &txt1, ++x, y))
+                break;
+        }
+        ++y;
     }
     result(output, txt1);
     close(input, output);

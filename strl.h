@@ -14,7 +14,7 @@ struct text //T
 };
 struct bufer
 {
-    int massiv[6] = {0,0,0,0,0,0};
+    int massiv[MaxStr + 1] = {};
     int index = 0;
     int i = 0;
 };
