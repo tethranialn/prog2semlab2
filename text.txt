@@ -5,3 +5,10 @@ sentences that may wrap to the next line.
 
 Sentences end with a period. Strings may contain 5 spaces at the beginning.
 The goal is to determine the number of sentences in the text.
+Oh.
+A
+aa.
+DAAAAAAA. AAAAAAAAAA
+
+
+     AAAAAAAAA. AAAAAA    AAAAAAAAAAAAAAA  AAAAAAAAAAAAAAAAA.

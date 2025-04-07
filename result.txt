@@ -1,104 +1,49 @@
 Text block read:
 +------------+
-|      Given |
-| Each strin |
-| The text c |
-| sentences  |
-| __________ |
+|     aaaaaa |
+|     aaaaaa |
+|     a_____ |
+|        aaa |
+|            |
 +------------+
 
 Text block read:
 +------------+
-|  a text re |
-| g contains |
-| onsists of |
-| that may w |
+| aaaaaa____ |
+| aa________ |
 | __________ |
+| aa________ |
+|            |
 +------------+
 
 Text block read:
 +------------+
-| presented  |
-|  at most N |
-|  _________ |
-| rap to the |
-| __________ |
-+------------+
-
-Text block read:
-+------------+
-| as an arra |
-|  character |
-| __________ |
-|  next line |
-| __________ |
-+------------+
-
-Text block read:
-+------------+
-| y of strin |
-| s.________ |
-| __________ |
-| ._________ |
-| __________ |
-+------------+
-
-Text block read:
-+------------+
-| gs._______ |
 | __________ |
 | __________ |
 | __________ |
 | __________ |
+| ffffff____ |
 +------------+
 
 Text block read:
 +------------+
-| Sentences  |
-| The goal i |
+|            |
 +------------+
 
 Text block read:
 +------------+
-| end with a |
-| s to deter |
+|       ffff |
 +------------+
 
 Text block read:
 +------------+
-|  period. S |
-| mine the n |
+| ffffffffff |
 +------------+
 
 Text block read:
 +------------+
-| trings may |
-| umber of s |
-+------------+
-
-Text block read:
-+------------+
-|  contain 5 |
-| entences i |
-+------------+
-
-Text block read:
-+------------+
-|  spaces at |
-| n the text |
-+------------+
-
-Text block read:
-+------------+
-|  the begin |
-| ._________ |
-+------------+
-
-Text block read:
-+------------+
-| ning._____ |
-| __________ |
+| fffffffff_ |
 +------------+
 
 
-number of sentences: 6
+number of sentences: 0

@@ -15,35 +15,10 @@
 #include "functions.h"
 #include <iostream>
 
-/*
-int main()
-{
-    std::ifstream input;
-    std::ofstream output;
-    text txt1; bufer B;
-    input.unsetf(ios::skipws);
-    open(input, output);
-    while (!input.eof())
-    {
-        B.i = txt1.Len;
-        bufInp(input, B);
-        while (true)
-        {
-            read(input, &txt1, B);
-            if (txt1.Len == 0) break;
-            process(txt1);
-            out(output, txt1);
-        }
-    }
-    result(output, txt1);
-    close(input, output);
-    return 0;
-}
-*/
 int main() {
     std::ifstream input;
     std::ofstream output;
-    text txt1; bufer B;
+    text txt1;
     open(input, output);
     unsigned int x, y{};
     for (;;)
